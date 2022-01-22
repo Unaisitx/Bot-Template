@@ -5,7 +5,6 @@ const client = new Discord.Client();
 const config = require("./config.json");
 
 client.config = config;
-client.queue = new Map()
 
 fs.readdir("./events/", (err, files) => {
   if (err) return console.error(err);
