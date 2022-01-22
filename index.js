@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const alive = require("./keep_alive.js")
 const client = new Discord.Client();
-const config = require("./config.js");
+const config = require("./config.json");
 client.config = config;
 client.queue = new Map()
 
